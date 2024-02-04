@@ -1,0 +1,132 @@
+.navbar {
+    background-color: #070127 !important;
+    position: fixed !important;
+    top: 0;
+    z-index: 4000 !important;
+    width: 100% !important;
+    color: #e3a300;
+    padding: 10px 5px !important;
+}
+
+.cardnotification {
+    bottom: 15px !important;
+    left: 80px !important;
+}
+
+@media screen and (max-width : 1060px) and (min-width : 980px) {
+    .navbar a {
+        color: #ffffffec;
+        font-size: 15px !important;
+
+    }
+}
+
+/* font-family: 'Anek Gujarati', sans-serif;
+font-family: 'Anek Odia', sans-serif;
+font-family: 'Beau Rivage', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif; */
+
+.navbar .logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+
+
+.navbar a {
+    color: #ffffffec;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Anek Odia', sans-serif;
+    text-shadow: 3px 0px 7px rgba(0, 0, 0, 0.256), -3px 0px 7px rgba(0, 0, 0, 0.397), 0px 4px 7px rgba(0, 0, 0, 0.644);
+    transition: all 0.1s linear;
+    margin-left: 19px !important;
+}
+
+.navbar a:hover {
+    color: #3178B8 !important;
+    text-shadow: none !important;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex !important;
+    margin-bottom: 10px !important;
+    cursor: pointer;
+    position: absolute;
+    right: 20px !important;
+    top: 13px;
+
+}
+
+.protfolioimg {
+    width: 100% !important;
+    height: 100%;
+    border-radius: 50%;
+    /* padding-bottom: 10px !important; */
+
+}
+
+.MainDiv {
+    width: 220px !important;
+    display: flex !important;
+    justify-content: end !important;
+}
+
+.MainDiv #MainloginBtn {
+    margin-right: 30px !important;
+    margin-top: 7px !important;
+
+}
+
+#loginBtn {
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 1px;
+    border-radius: 5px !important;
+    position: relative !important;
+    top: 15px !important;
+    margin-top: 15px !important;
+    background-color: #005830;
+}
+
+.navbar-toggler {
+    border: 2px solid #fff !important;
+}
+
+.navbar-toggler-icon {
+    background-image: unset !important;
+    /* border: 2px solid #fff !important; */
+}
+
+.textToggle {
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+
+}
+
+#loginBtn {
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 1px;
+    border-radius: 5px !important;
+    position: relative !important;
+    top: -6px !important;
+    margin-right: 5px !important;
+
+
+}
+
+#loginBtn:hover {
+    color: rgb(255, 255, 255) !important;
+
+}

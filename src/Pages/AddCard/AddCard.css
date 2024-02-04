@@ -1,0 +1,95 @@
+.AddToCard {
+    padding-top: 65px;
+    padding-bottom: 5%;
+
+}
+
+.closess {
+    right: 40px !important;
+    background-color: rgb(205, 0, 0) !important;
+    padding: 20px !important;
+    top: 75px !important;
+    color: #fff !important;
+
+}
+
+
+
+.AddToCard .card_box {
+    background-color: #14213D;
+    border-radius: 20px;
+    padding: 12px 0;
+    color: #fff;
+}
+
+.addimg {
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 20px;
+}
+
+.detais {
+    font-size: 13px;
+}
+
+.cardbtn {
+    font-size: 12px;
+    padding: 3px 5px;
+    background-color: rgb(24, 90, 243);
+    border: none !important;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.closeCard {
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+    transition: all 2 ease-in-out !important;
+}
+
+.closeCard:hover {
+    color: rgb(255, 94, 94);
+    transform: scale(1.5);
+
+}
+
+.cardImage {
+    width: 100% !important;
+    height: 140px !important;
+    border-radius: 20px;
+}
+
+/* ====Buy now========== */
+.cardbox {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width : 760px) {
+    .cardImage {
+        width: 80% !important;
+        height: 30vh !important;
+        border-radius: 2px !important;
+    }
+
+    .mainrow {
+        padding: 20px !important;
+        border-radius: 2px !important;
+    }
+}
+
+/* ======right side card ========== */
+.addToCardrightSite {
+    width: 41% !important;
+    height: 85vh;
+    background-color: #14213D;
+    position: fixed;
+    top: 20;
+    border-radius: 10px;
+}
+
+.hightss {
+    height: 100vh !important;
+}

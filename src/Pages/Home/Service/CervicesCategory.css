@@ -1,0 +1,346 @@
+.Featured-products {
+    padding: 80px 0;
+    width: 100%;
+    background: #fff;
+    margin: 0 auto !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* ====Btn======== */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:900i');
+
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    display: flex;
+    padding: 3px 4px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: rgb(254, 254, 254);
+    background: #02a00c;
+    transition: 1s;
+    /* box-shadow: 2px 2px 0 black; */
+    transform: skewX(-15deg);
+}
+
+.cta:focus {
+    outline: none;
+}
+
+.cta:hover {
+    transition: 0.5s;
+    box-shadow: 3px 3px 0 #3d3d3c;
+}
+
+@keyframes color_anim {
+    0% {
+        fill: white;
+    }
+
+    50% {
+        fill: #FBC638;
+    }
+
+    100% {
+        fill: white;
+    }
+}
+
+.scetion .carousel-control-next-icon {
+    background-color: red !important;
+}
+
+.scetion .carousel-control-prev-icon {
+    background-color: red !important;
+}
+
+.scetion .carousel-control-prev-icon {
+    background-color: rgb(0, 0, 0) !important;
+    z-index: 400 !important;
+    filter: none !important;
+    padding: 5px 2px !important;
+    /* border-radius: 50%; */
+    width: 50px !important;
+    height: 50px !important;
+    opacity: 1 !important;
+    position: absolute !important;
+    left: -5px !important;
+    bottom: 250px !important;
+    background-image: none !important;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.scetion .carousel-control-prev-icon:hover {
+    background-color: #0025b8 !important;
+}
+
+.scetion .priveSlider {
+    margin-top: 8px !important;
+    font-size: 20px !important;
+    z-index: 400 !important;
+}
+
+.scetion .carousel-control-next-icon:hover {
+    background-color: #0025b8 !important;
+}
+
+.scetion .carousel-control-next-icon {
+    background-color: rgb(0, 0, 0) !important;
+    z-index: 400 !important;
+    filter: none !important;
+    padding: 5px 2px !important;
+    /* border-radius: 50%; */
+    width: 50px !important;
+    height: 50px !important;
+    opacity: 1 !important;
+    position: absolute !important;
+    right: 5px !important;
+    bottom: 250px !important;
+    background-image: none !important;
+
+}
+
+@media only screen and (max-width: 770px) and (min-width: 200px) {
+    .scetion .carousel-control-next-icon {
+        background-color: rgb(13, 124, 251) !important;
+        width: 40px !important;
+        height: 40px !important;
+        position: absolute !important;
+        right: 10px !important;
+        bottom: 30px !important;
+    }
+
+    .scetion .priveSlider {
+        margin-top: 6px !important;
+        font-size: 22px !important;
+        z-index: 400 !important;
+
+    }
+
+    .scetion .smalldiv {
+        justify-content: end !important;
+        position: relative !important;
+        z-index: 500 !important;
+        background-color: #000;
+    }
+
+    .scetion .carousel-control-prev-icon {
+        background-color: rgb(13, 124, 251) !important;
+        width: 40px !important;
+        height: 40px !important;
+        position: absolute !important;
+        left: 550px !important;
+        bottom: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 665px) {
+    .scetion .carousel-control-prev-icon {
+        background-color: rgb(13, 124, 251) !important;
+        width: 40px !important;
+        height: 40px !important;
+        position: absolute !important;
+        left: 350px !important;
+        bottom: -30px !important;
+    }
+
+    .scetion .carousel-control-next-icon {
+        background-color: rgb(13, 124, 251) !important;
+        width: 40px !important;
+        height: 40px !important;
+        position: absolute !important;
+        right: 30px !important;
+        bottom: -30px !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    .scetion .carousel-control-prev-icon {
+        background-color: rgb(13, 124, 251) !important;
+        width: 40px !important;
+        height: 40px !important;
+        position: absolute !important;
+        left: 250px !important;
+        bottom: -30px !important;
+    }
+
+    .scetion .carousel-control-next-icon {
+        background-color: rgb(13, 124, 251) !important;
+        width: 40px !important;
+        height: 40px !important;
+        position: absolute !important;
+        right: 35px !important;
+        bottom: -30px !important;
+    }
+
+    .description {
+        width: 100% !important;
+        height: 90vh !important;
+    }
+
+    .d-content p {
+        font-size: 16px;
+        font-weight: 500;
+        color: #666666;
+        width: 100%;
+
+    }
+
+    .texts {
+        font-size: 16px !important;
+        margin-top: 10px;
+        font-family: 'Anek Odia', sans-serif !important;
+
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .scetion .carousel-control-prev-icon {
+        background-color: rgb(13, 124, 251) !important;
+        width: 40px !important;
+        height: 40px !important;
+        position: absolute !important;
+        left: 200px !important;
+        bottom: -30px !important;
+    }
+
+    #responsiveText {
+        font-size: 13px !important;
+        /* margin-top: 10px !important; */
+        padding-top: 8px;
+    }
+
+
+}
+
+/* =============future furniture collection ================== */
+.description {
+    width: 100% !important;
+    height: 60vh;
+    /* padding-left: 50px; */
+    background: url('../../../Assent/img/bg2.jpg') no-repeat;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.d-content {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-content p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #666666;
+    width: 100%;
+    font-size-adjust: initial;
+
+}
+
+/* ==========full home Decoretion ============= */
+
+.FullHome_Decoretion {
+    width: 100% !important;
+    height: auto !important;
+    padding: 3% 0 !important;
+}
+
+
+
+.texts {
+    color: #000000;
+    margin-top: 10px;
+    text-shadow: 2px 7px 5px rgba(255, 255, 255, 0.235),
+        0px -4px 10px rgba(255, 255, 255, 0.902);
+}
+
+.FullHome_Decoretion .products-boxs img {
+    transition: all 0.6s ease-in-out;
+    background-color: #fff;
+    height: 400px !important;
+}
+
+.products-boxs {
+    box-shadow: rgba(0, 0, 0, 0.176) 0px -23px 25px 0px inset, rgba(141, 196, 251, 0.742) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-bottom: none !important;
+    padding: 5px;
+}
+
+.service_7 {
+    background-color: #009688;
+    padding: 4px 15px;
+    border: none !important;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+.service_7:hover {
+    background-color: #06dfcad5;
+    padding: 4px 15px;
+    border: none !important;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+/* =========client img=========== */
+.client_img {
+    width: 90px !important;
+    border-radius: 50%;
+    border: 4px dotted black;
+}
+
+.Our_client {
+    background-image: url('../../../Assent/Background Image/Client.gif');
+    width: 100%;
+    height: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+
+/* =====product box========== */
+
+.product_details {
+    padding: 6px 15px;
+    border: none !important;
+    background-color: #2a94e6;
+    color: #fff;
+    border-radius: 5px;
+    position: relative !important;
+    z-index: 1000 !important;
+}
+
+.product_details:hover {
+    color: rgb(149, 255, 67);
+    background-color: #094cd3;
+}
+
+.productImg {
+    height: 54vh !important;
+    width: 100% !important;
+}
+
+.product_name {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(69, 69, 69);
+    font-weight: 600;
+}

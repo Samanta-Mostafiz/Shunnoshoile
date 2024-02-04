@@ -1,0 +1,21 @@
+.upcoming {
+    margin-top: 70px;
+    padding-bottom: 5%;
+}
+
+.upcoming .products-box {
+    flex-basis: 32%;
+    position: relative;
+    background: #f6f7fb;
+    padding-bottom: 10px;
+    transition: .3s;
+    margin-top: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.upcoming .products-box img {
+    display: block;
+    width: 100% !important;
+    height: 56vh !important;
+    border-radius: 10px 10px 0 0;
+}

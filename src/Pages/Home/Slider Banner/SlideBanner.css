@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@100&family=Anek+Odia:wght@100;600&family=Beau+Rivage&family=Kanit:ital,wght@0,500;0,600;1,500&family=Oswald:wght@400;500;600;700&family=PT+Sans+Narrow:wght@700&family=Poppins&display=swap");
+
+.bannerscetion .slide_img {
+    /* background-image: url('../../../Assent/img/banner.jpg'); */
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+.img-gradient {
+    position: relative;
+    display: inline-block;
+    width: 100% !important;
+}
+
+.text-ss {
+    color: #009688 !important;
+}
+
+.small-text {
+    font-family: 'Anek Gujarati', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: 3px 0px 7px rgb(65, 65, 65), -3px 0px 7px rgb(81, 67, 21), 0px 4px 7px rgba(67, 66, 66, 0.8);
+}
+
+/* 
+
+Convert HEX to RGBA - http://hex2rgba.devoth.com/
+*/
+.img-gradient:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100% !important;
+    height: 100%;
+    display: inline-block;
+    background: linear-gradient(to bottom, rgba(1, 25, 39, 0.635) 50%, rgba(21, 20, 20, 0.932) 100%);
+    /* W3C */
+
+}
+
+.img-gradient img {
+    display: block;
+}
+
+.z-50 {
+    z-index: 200;
+}
+
+.bannerscetion .prerantDivBtn {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.bannerscetion .carousel-control-prev {
+    position: relative !important;
+
+}
+
+.bannerscetion .carousel-control-next {
+    position: relative !important;
+    right: 0;
+
+}
+
+.bannerscetion .carousel-control-prev-icon {
+    background-color: rgba(255, 255, 255, 0.555) !important;
+    z-index: 300 !important;
+    color: #fff !important;
+    filter: none !important;
+    padding: 5px 2px !important;
+    border-radius: 50%;
+    width: 50px !important;
+    height: 50px !important;
+    opacity: 1 !important;
+    position: absolute !important;
+    left: 20px !important;
+    bottom: 358px !important;
+    background-image: none !important;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.bannerscetion .carousel-control-prev-icon:hover {
+    background-color: #0025b8 !important;
+}
+
+.bannerscetion .carousel-control-next-icon:hover {
+    background-color: #0025b8 !important;
+}
+
+.bannerscetion .carousel-control-next-icon {
+    background-color: rgba(255, 255, 255, 0.495) !important;
+    z-index: 300 !important;
+    color: #fff !important;
+    filter: none !important;
+    padding: 5px 2px !important;
+    border-radius: 50%;
+    width: 50px !important;
+    height: 50px !important;
+    opacity: 1 !important;
+    position: absolute !important;
+    right: 20px !important;
+    bottom: 355px !important;
+    background-image: none !important;
+
+}
+
+.bannerscetion .priveSlider {
+    margin-top: 8px !important;
+    font-size: 24px;
+}
+
+.bannerscetion .nextSlider {
+    margin-top: 8px !important;
+    font-size: 24px;
+}
+
+.bannerscetion .to-centers {
+    margin-top: -38% !important;
+    z-index: 300 !important;
+
+
+}
+
+@media only screen and (max-width: 970px) and (min-width: 765px) {
+    .bannerscetion .mt-md-center {
+        margin-top: -70% !important;
+        z-index: 300 !important;
+    }
+
+    .bannerscetion .glow-on-hover {
+        margin-bottom: 20px !important;
+    }
+
+}
+
+@media screen and (min-width : 960px) and (max-width : 1150px) {
+    .to-centers {
+        margin-bottom: 90px !important;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    .bannerscetion .carousel-control-next-icon {
+        width: 40px !important;
+        height: 40px !important;
+        position: absolute !important;
+        right: 10px !important;
+        bottom: 355px !important;
+    }
+
+    .bannerscetion .nextSlider {
+        margin-top: 3px !important;
+        font-size: 22px;
+    }
+
+    .bannerscetion .priveSlider {
+        margin-top: 3px !important;
+        font-size: 22px;
+    }
+
+    .bannerscetion .carousel-control-prev-icon {
+
+        z-index: 300 !important;
+        padding: 5px 2px !important;
+        width: 40px !important;
+        height: 40px !important;
+        position: absolute !important;
+        left: 10px !important;
+        bottom: 358px !important;
+
+
+    }
+
+    .bannerscetion .smTitle {
+        bottom: 130px !important;
+    }
+
+
+}
+
+
+
+.px-6 {
+    padding: 0 14%;
+    font-size: 17px;
+}
+
+.bannerscetion .carousel-dark .carousel-indicators [data-bs-target] {
+    color: #fff !important;
+    background-color: #ffffff !important;
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+}
+
+.top-10 {
+    padding-bottom: 40% !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -btn- */
+.glow-on-hover {
+    width: 150px;
+    height: 60px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: rgb(13, 54, 218);
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:behtmlFore {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(2px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:behtmlFore {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #160092;
+    left: 0;
+    top: 0;
+    border-radius: 2px;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+/* ============text ============= */
+.hady {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif !important;
+}

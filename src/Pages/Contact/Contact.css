@@ -1,0 +1,22 @@
+.Fore {
+    background-color: #00805b;
+
+
+}
+
+@media screen and (min-width: 750px) {
+    .Fore2 {
+        width: 50% !important;
+    }
+}
+
+.Fore2 {
+    background-color: #070127;
+
+
+}
+
+.contactimg {
+    width: 90%;
+    height: 60vh;
+}
